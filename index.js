@@ -3,8 +3,9 @@ window.addEventListener("keydown", play);
 
 //function
 function play(e) {
-  const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
-  const btn = document.querySelector(`button[data-key="${e.keyCode}"]`);
+  const key = e.keyCode; // getting keycode
+  const audio = document.querySelector(`audio[data-key="${key}"]`);
+  const btn = document.querySelector(`button[data-key="${key}"]`);
   if (!audio) {
     return;
   } else {
