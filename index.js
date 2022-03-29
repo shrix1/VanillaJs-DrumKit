@@ -15,6 +15,6 @@ function play(e) {
     //(remove pressed class its a dump way) but i learned setInterval func
     setInterval(() => {
       btn.classList.remove("pressed");
-    }, 500);
+    }, 300);
   }
 }
