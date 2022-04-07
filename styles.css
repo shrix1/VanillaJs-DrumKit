@@ -40,7 +40,7 @@ section {
   margin: 10% auto;
 }
 .pressed {
-  box-shadow: 0 3px 4px 0 #dbedf3;
+  box-shadow: 0 3px 4px 0 #ffffff;
   opacity: 0.5;
 }
 .red {
