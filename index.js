@@ -13,7 +13,7 @@ function play(e) {
     audio.play();
     btn.classList.add("pressed");
     
-    //(remove pressed class its a dump way) but i learned setInterval func
+    //(remove pressed class using setInterval is a dump way) but i learned setInterval func
     setInterval(() => {
       btn.classList.remove("pressed");
     }, 300);
