@@ -2,7 +2,7 @@
 window.addEventListener("keydown", play);
 
 //function
-function play(e) {
+const play=(e)=> {
   const key = e.keyCode; //keycode
 
   //getting keyCode to play specfic audio
