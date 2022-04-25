@@ -1,4 +1,4 @@
 # drum-kit
- drum kit project => used keyCode and others
+ drum kit project --> used keyCode and other stuffs
  
- check this website : https://shri-drumkit.netlify.app/
+### check this website : https://shri-drumkit.netlify.app/
